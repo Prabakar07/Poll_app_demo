@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.poll-option {
+  margin-bottom: 10px;
+}
+
+.vote-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to right, #03ff0b 0%, #4caf50 0%, #fc0000 0%);
+  background-repeat: no-repeat;
+  background-color: #f9f9f9d9;
+  transition: background-size 0.5s ease-in-out;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+}
+
+.vote-button:hover {
+scale: 1.01;
+border: 2px soild #4caf50;
+}
+
+.vote-button:focus {
+  outline: none;
+}
